@@ -1,7 +1,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  api: { bodyParser: { sizeLimit: '2mb' } },
+  reactStrictMode: true
 };
+
 module.exports = nextConfig;
