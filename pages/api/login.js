@@ -16,3 +16,11 @@ module.exports = async function handler(req, res) {
     res.status(500).json({ error: err.message || 'Login error' });
   }
 };
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '1mb'
+    }
+  }
+};
+
